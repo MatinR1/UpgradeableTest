@@ -1,5 +1,7 @@
 
 // SPDX-License-Identifier: MIT
+/// @title Implementation and proxy contracts
+/// @dev ERC1967 proxy is developed using hardhat upgradeable plugin
 
 pragma solidity ^0.8.13;
 
