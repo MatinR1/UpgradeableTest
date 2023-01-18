@@ -16,7 +16,7 @@ In Web3 the proxy pattern is one of the most popular patterns for upgrading the 
 concept of the immutability of the blockchains, however, the necessity for doing some vital changes to the contract in the case of a bug or other things
 exists and developers need to upgrade their contracts. The mechanism for upgrading the contracts is made possible with the low-level ```delegatecall```
 method. With this method, the storage is with the proxy contract while the logic is from the target contract. Fig.1 illustrates the mechanism of
-```delegatecall``:
+```delegatecall```:
 
 ![Figure 1](https://github.com/MatinR1/UpgradeableTest/blob/master/Delegatecall.png?raw=true)
 
